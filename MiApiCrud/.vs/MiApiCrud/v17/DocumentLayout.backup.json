@@ -1,0 +1,195 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\compu\\OneDrive\\Escritorio\\Uniandes\\aplicaciones web\\sem 6\\MiApiCrud\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56D4837E-5E1D-44D8-9212-CED6077AE7FE}|MiApiCrud\\MiApiCrud.csproj|c:\\users\\compu\\onedrive\\escritorio\\uniandes\\aplicaciones web\\sem 6\\miapicrud\\miapicrud\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56D4837E-5E1D-44D8-9212-CED6077AE7FE}|MiApiCrud\\MiApiCrud.csproj|solutionrelative:miapicrud\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D4837E-5E1D-44D8-9212-CED6077AE7FE}|MiApiCrud\\MiApiCrud.csproj|c:\\users\\compu\\onedrive\\escritorio\\uniandes\\aplicaciones web\\sem 6\\miapicrud\\miapicrud\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56D4837E-5E1D-44D8-9212-CED6077AE7FE}|MiApiCrud\\MiApiCrud.csproj|solutionrelative:miapicrud\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D4837E-5E1D-44D8-9212-CED6077AE7FE}|MiApiCrud\\MiApiCrud.csproj|c:\\users\\compu\\onedrive\\escritorio\\uniandes\\aplicaciones web\\sem 6\\miapicrud\\miapicrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{56D4837E-5E1D-44D8-9212-CED6077AE7FE}|MiApiCrud\\MiApiCrud.csproj|solutionrelative:miapicrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D4837E-5E1D-44D8-9212-CED6077AE7FE}|MiApiCrud\\MiApiCrud.csproj|c:\\users\\compu\\onedrive\\escritorio\\uniandes\\aplicaciones web\\sem 6\\miapicrud\\miapicrud\\migrations\\20260213023710_inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56D4837E-5E1D-44D8-9212-CED6077AE7FE}|MiApiCrud\\MiApiCrud.csproj|solutionrelative:miapicrud\\migrations\\20260213023710_inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D4837E-5E1D-44D8-9212-CED6077AE7FE}|MiApiCrud\\MiApiCrud.csproj|c:\\users\\compu\\onedrive\\escritorio\\uniandes\\aplicaciones web\\sem 6\\miapicrud\\miapicrud\\migrations\\20260213023416_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56D4837E-5E1D-44D8-9212-CED6077AE7FE}|MiApiCrud\\MiApiCrud.csproj|solutionrelative:miapicrud\\migrations\\20260213023416_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D4837E-5E1D-44D8-9212-CED6077AE7FE}|MiApiCrud\\MiApiCrud.csproj|c:\\users\\compu\\onedrive\\escritorio\\uniandes\\aplicaciones web\\sem 6\\miapicrud\\miapicrud\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56D4837E-5E1D-44D8-9212-CED6077AE7FE}|MiApiCrud\\MiApiCrud.csproj|solutionrelative:miapicrud\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D4837E-5E1D-44D8-9212-CED6077AE7FE}|MiApiCrud\\MiApiCrud.csproj|c:\\users\\compu\\onedrive\\escritorio\\uniandes\\aplicaciones web\\sem 6\\miapicrud\\miapicrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56D4837E-5E1D-44D8-9212-CED6077AE7FE}|MiApiCrud\\MiApiCrud.csproj|solutionrelative:miapicrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D4837E-5E1D-44D8-9212-CED6077AE7FE}|MiApiCrud\\MiApiCrud.csproj|c:\\users\\compu\\onedrive\\escritorio\\uniandes\\aplicaciones web\\sem 6\\miapicrud\\miapicrud\\miapicrud.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{56D4837E-5E1D-44D8-9212-CED6077AE7FE}|MiApiCrud\\MiApiCrud.csproj|solutionrelative:miapicrud\\miapicrud.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D4837E-5E1D-44D8-9212-CED6077AE7FE}|MiApiCrud\\MiApiCrud.csproj|c:\\users\\compu\\onedrive\\escritorio\\uniandes\\aplicaciones web\\sem 6\\miapicrud\\miapicrud\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56D4837E-5E1D-44D8-9212-CED6077AE7FE}|MiApiCrud\\MiApiCrud.csproj|solutionrelative:miapicrud\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D4837E-5E1D-44D8-9212-CED6077AE7FE}|MiApiCrud\\MiApiCrud.csproj|c:\\users\\compu\\onedrive\\escritorio\\uniandes\\aplicaciones web\\sem 6\\miapicrud\\miapicrud\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56D4837E-5E1D-44D8-9212-CED6077AE7FE}|MiApiCrud\\MiApiCrud.csproj|solutionrelative:miapicrud\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cde3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\compu\\OneDrive\\Escritorio\\Uniandes\\aplicaciones web\\sem 6\\MiApiCrud\\MiApiCrud\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "MiApiCrud\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\compu\\OneDrive\\Escritorio\\Uniandes\\aplicaciones web\\sem 6\\MiApiCrud\\MiApiCrud\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "MiApiCrud\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T02:42:09.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\compu\\OneDrive\\Escritorio\\Uniandes\\aplicaciones web\\sem 6\\MiApiCrud\\MiApiCrud\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "MiApiCrud\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\compu\\OneDrive\\Escritorio\\Uniandes\\aplicaciones web\\sem 6\\MiApiCrud\\MiApiCrud\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "MiApiCrud\\Controllers\\ProductosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T02:41:23.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20260213023710_inicio.cs",
+              "DocumentMoniker": "C:\\Users\\compu\\OneDrive\\Escritorio\\Uniandes\\aplicaciones web\\sem 6\\MiApiCrud\\MiApiCrud\\Migrations\\20260213023710_inicio.cs",
+              "RelativeDocumentMoniker": "MiApiCrud\\Migrations\\20260213023710_inicio.cs",
+              "ToolTip": "C:\\Users\\compu\\OneDrive\\Escritorio\\Uniandes\\aplicaciones web\\sem 6\\MiApiCrud\\MiApiCrud\\Migrations\\20260213023710_inicio.cs",
+              "RelativeToolTip": "MiApiCrud\\Migrations\\20260213023710_inicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T02:37:10.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20260213023416_inicial.cs",
+              "DocumentMoniker": "C:\\Users\\compu\\OneDrive\\Escritorio\\Uniandes\\aplicaciones web\\sem 6\\MiApiCrud\\MiApiCrud\\Migrations\\20260213023416_inicial.cs",
+              "RelativeDocumentMoniker": "MiApiCrud\\Migrations\\20260213023416_inicial.cs",
+              "ToolTip": "C:\\Users\\compu\\OneDrive\\Escritorio\\Uniandes\\aplicaciones web\\sem 6\\MiApiCrud\\MiApiCrud\\Migrations\\20260213023416_inicial.cs",
+              "RelativeToolTip": "MiApiCrud\\Migrations\\20260213023416_inicial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T02:34:16.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\compu\\OneDrive\\Escritorio\\Uniandes\\aplicaciones web\\sem 6\\MiApiCrud\\MiApiCrud\\Program.cs",
+              "RelativeDocumentMoniker": "MiApiCrud\\Program.cs",
+              "ToolTip": "C:\\Users\\compu\\OneDrive\\Escritorio\\Uniandes\\aplicaciones web\\sem 6\\MiApiCrud\\MiApiCrud\\Program.cs",
+              "RelativeToolTip": "MiApiCrud\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T02:32:29.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\compu\\OneDrive\\Escritorio\\Uniandes\\aplicaciones web\\sem 6\\MiApiCrud\\MiApiCrud\\appsettings.json",
+              "RelativeDocumentMoniker": "MiApiCrud\\appsettings.json",
+              "ToolTip": "C:\\Users\\compu\\OneDrive\\Escritorio\\Uniandes\\aplicaciones web\\sem 6\\MiApiCrud\\MiApiCrud\\appsettings.json",
+              "RelativeToolTip": "MiApiCrud\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-13T02:31:55.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\compu\\OneDrive\\Escritorio\\Uniandes\\aplicaciones web\\sem 6\\MiApiCrud\\MiApiCrud\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MiApiCrud\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\compu\\OneDrive\\Escritorio\\Uniandes\\aplicaciones web\\sem 6\\MiApiCrud\\MiApiCrud\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "MiApiCrud\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T02:31:03.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MiApiCrud.csproj",
+              "DocumentMoniker": "C:\\Users\\compu\\OneDrive\\Escritorio\\Uniandes\\aplicaciones web\\sem 6\\MiApiCrud\\MiApiCrud\\MiApiCrud.csproj",
+              "RelativeDocumentMoniker": "MiApiCrud\\MiApiCrud.csproj",
+              "ToolTip": "C:\\Users\\compu\\OneDrive\\Escritorio\\Uniandes\\aplicaciones web\\sem 6\\MiApiCrud\\MiApiCrud\\MiApiCrud.csproj",
+              "RelativeToolTip": "MiApiCrud\\MiApiCrud.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-13T02:30:23.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\compu\\OneDrive\\Escritorio\\Uniandes\\aplicaciones web\\sem 6\\MiApiCrud\\MiApiCrud\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "MiApiCrud\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\compu\\OneDrive\\Escritorio\\Uniandes\\aplicaciones web\\sem 6\\MiApiCrud\\MiApiCrud\\Models\\Producto.cs",
+              "RelativeToolTip": "MiApiCrud\\Models\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T02:29:15.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\compu\\OneDrive\\Escritorio\\Uniandes\\aplicaciones web\\sem 6\\MiApiCrud\\MiApiCrud\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "MiApiCrud\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\compu\\OneDrive\\Escritorio\\Uniandes\\aplicaciones web\\sem 6\\MiApiCrud\\MiApiCrud\\Models\\Categoria.cs",
+              "RelativeToolTip": "MiApiCrud\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T02:28:41.006Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
