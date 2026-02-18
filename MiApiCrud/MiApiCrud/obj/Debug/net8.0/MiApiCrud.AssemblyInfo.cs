@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiApiCrud")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+506659ec3228eb8455ca00c29655b0e5911b7c35")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiApiCrud")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiApiCrud")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

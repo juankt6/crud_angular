@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "MiApiCrud.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "MiApiCrud.Models.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiApiCrud.Controllers.AuthController",
+    "Method": "Registrar",
+    "RelativePath": "api/Auth/registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "MiApiCrud.Models.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ApiTienda.Controllers.CategoriasController",
     "Method": "GetCategorias",
     "RelativePath": "api/Categorias",

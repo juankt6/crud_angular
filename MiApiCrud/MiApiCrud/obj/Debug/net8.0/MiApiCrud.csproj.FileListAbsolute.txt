@@ -253,3 +253,4 @@ C:\Users\compu\OneDrive\Escritorio\Uniandes\aplicaciones web\sem 6\MiApiCrud\MiA
 C:\Users\compu\OneDrive\Escritorio\Uniandes\aplicaciones web\sem 6\MiApiCrud\MiApiCrud\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\compu\OneDrive\Escritorio\Uniandes\aplicaciones web\sem 6\MiApiCrud\MiApiCrud\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\compu\OneDrive\Escritorio\Uniandes\aplicaciones web\sem 6\MiApiCrud\MiApiCrud\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\compu\OneDrive\Escritorio\Uniandes\aplicaciones web\sem 6\MiApiCrud\MiApiCrud\obj\Debug\net8.0\MiApiCrud.sourcelink.json
