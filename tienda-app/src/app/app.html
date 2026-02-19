@@ -1,0 +1,125 @@
+<div *ngIf="!estaLogueado" class="d-flex justify-content-center align-items-center vh-100 bg-light">
+  <div class="card shadow p-4" style="width: 400px;">
+    
+    <h2 class="text-center mb-3 text-primary">
+      {{ modoRegistro ? '📝 Crear Cuenta' : '🔐 Iniciar Sesión' }}
+    </h2>
+    
+    <div class="mb-3">
+      <label>Correo Electrónico:</label>
+      <input type="email" class="form-control" [(ngModel)]="loginData.correo" placeholder="usuario@mail.com">
+    </div>
+    
+    <div class="mb-3">
+      <label>Contraseña:</label>
+      <input type="password" class="form-control" [(ngModel)]="loginData.clave" placeholder="****">
+    </div>
+
+    <button class="btn w-100 mb-3" 
+            [class.btn-primary]="!modoRegistro" 
+            [class.btn-success]="modoRegistro"
+            (click)="procesarAuth()">
+      {{ modoRegistro ? 'Registrarse' : 'Entrar' }}
+    </button>
+
+    <div class="text-center">
+      <a href="#" (click)="modoRegistro = !modoRegistro; $event.preventDefault()" class="text-decoration-none">
+        {{ modoRegistro ? '¿Ya tienes cuenta? Entra aquí' : '¿No tienes cuenta? Regístrate' }}
+      </a>
+    </div>
+
+  </div>
+</div>
+
+
+<div *ngIf="estaLogueado">
+  
+  <nav class="navbar navbar-expand navbar-dark bg-dark mb-4 px-3">
+    <a class="navbar-brand" href="#">Sistema Tienda</a>
+    <div class="navbar-nav me-auto">
+      <button class="btn nav-link" [class.active]="vistaActual==='productos'" (click)="vistaActual='productos'">Productos</button>
+      <button class="btn nav-link" [class.active]="vistaActual==='categorias'" (click)="vistaActual='categorias'">Categorías</button>
+    </div>
+    <button class="btn btn-danger btn-sm" (click)="cerrarSesion()">Salir 🚪</button>
+  </nav>
+
+  <div class="container">
+    
+    <div *ngIf="vistaActual === 'categorias'">
+      <h3 class="text-primary mb-3">Gestión de Categorías</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card p-3 bg-light shadow-sm">
+            <h5>{{ categoriaForm.id === 0 ? 'Nueva' : 'Editar' }} Categoría</h5>
+            <input class="form-control mb-2" placeholder="Nombre" [(ngModel)]="categoriaForm.nombre">
+            
+            <button class="btn btn-primary w-100" (click)="guardarCategoria()">
+              {{ categoriaForm.id === 0 ? 'Crear' : 'Actualizar' }}
+            </button>
+            <button *ngIf="categoriaForm.id !== 0" class="btn btn-secondary w-100 mt-2" (click)="limpiarCategoria()">Cancelar</button>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <table class="table table-bordered table-hover">
+            <thead class="table-light"><tr><th>Nombre</th><th>Acciones</th></tr></thead>
+            <tbody>
+              <tr *ngFor="let c of listaCategorias">
+                <td>{{ c.nombre }}</td>
+                <td>
+                  <button class="btn btn-sm btn-warning me-2" (click)="editarCategoria(c)">✏️</button>
+                  <button class="btn btn-sm btn-danger" (click)="eliminarCategoria(c.id)">🗑️</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="vistaActual === 'productos'">
+      <h3 class="text-success mb-3">Gestión de Productos</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card p-3 bg-light shadow-sm">
+            <h5>{{ productoForm.id === 0 ? 'Nuevo' : 'Editar' }} Producto</h5>
+            
+            <label class="mt-2">Nombre</label>
+            <input class="form-control" [(ngModel)]="productoForm.nombre">
+            
+            <label class="mt-2">Precio</label>
+            <input type="number" class="form-control" [(ngModel)]="productoForm.precio">
+            
+            <label class="mt-2">Categoría</label>
+            <select class="form-select mb-3" [(ngModel)]="productoForm.categoriaId">
+              <option [value]="0">-- Seleccione --</option>
+              <option *ngFor="let c of listaCategorias" [value]="c.id">{{ c.nombre }}</option>
+            </select>
+
+            <button class="btn btn-success w-100" (click)="guardarProducto()">
+              {{ productoForm.id === 0 ? 'Guardar' : 'Actualizar' }}
+            </button>
+            <button *ngIf="productoForm.id !== 0" class="btn btn-secondary w-100 mt-2" (click)="limpiarProducto()">Cancelar</button>
+          </div>
+        </div>
+
+        <div class="col-md-8">
+          <table class="table table-bordered table-striped">
+            <thead class="table-dark"><tr><th>Producto</th><th>Precio</th><th>Categoría</th><th>Acciones</th></tr></thead>
+            <tbody>
+              <tr *ngFor="let p of listaProductos">
+                <td>{{ p.nombre }}</td>
+                <td>${{ p.precio }}</td>
+                <td><span class="badge bg-secondary">{{ p.categoria?.nombre || '---' }}</span></td>
+                <td>
+                  <button class="btn btn-sm btn-warning me-2" (click)="editarProducto(p)">✏️</button>
+                  <button class="btn btn-sm btn-danger" (click)="eliminarProducto(p.id)">🗑️</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
