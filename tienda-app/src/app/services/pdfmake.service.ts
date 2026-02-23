@@ -14,14 +14,14 @@ export class PdfService {
   constructor() { }
 
   generarFacturaProductos(productos: Producto[]) {
-    // 1. Calculamos el dinero (Asumiendo que se lleva 1 de cada producto que está en la tabla)
+
     let subtotal = 0;
     productos.forEach(p => subtotal += p.precio);
     
-    let iva = subtotal * 0.15; // IVA del 15% en Ecuador
+    let iva = subtotal * 0.15;
     let total = subtotal + iva;
 
-    // 2. Construimos el cuerpo de la tabla
+
     const cuerpoTabla: any[] = [
       [ 
         { text: 'Cant.', bold: true, fillColor: '#0d6efd', color: 'white', alignment: 'center' }, 
@@ -34,7 +34,7 @@ export class PdfService {
 
     productos.forEach(p => {
       cuerpoTabla.push([
-        { text: '1', alignment: 'center' }, // Cantidad por defecto
+        { text: '1', alignment: 'center' },
         p.nombre, 
         p.categoria?.nombre || '---', 
         { text: `$${p.precio.toFixed(2)}`, alignment: 'right' },
@@ -42,7 +42,7 @@ export class PdfService {
       ]);
     });
 
-    // 3. Diseñamos la factura completa
+
     const definicionPDF: any = {
       content: [
         // --- CABECERA DE LA FACTURA ---
@@ -72,7 +72,7 @@ export class PdfService {
               alignment: 'right'
             }
           ],
-          margin: [0, 0, 0, 20] // Espacio debajo de la cabecera
+          margin: [0, 0, 0, 20]
         },
 
         // --- TABLA DE PRODUCTOS ---
@@ -89,7 +89,7 @@ export class PdfService {
         // --- DESGLOSE DE TOTALES ---
         {
           columns: [
-            { width: '*', text: '' }, // Espacio vacío a la izquierda
+            { width: '*', text: '' },
             {
               width: 200,
               table: {
